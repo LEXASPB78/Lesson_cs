@@ -10,7 +10,12 @@ int Sum(int a)
     return result;
 }
 
-System.Console.WriteLine(Sum(5));
-System.Console.WriteLine(Sum(10));
-System.Console.WriteLine(Sum(0));
-System.Console.WriteLine(Sum(-20));
+void PrintSum(int a)
+{
+    System.Console.WriteLine($"Сумма чисел от 1 до {a} равна {Sum(a)}");
+}
+
+PrintSum(5);
+PrintSum(10);
+PrintSum(0);
+PrintSum(-4);
