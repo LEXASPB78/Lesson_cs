@@ -11,3 +11,6 @@ int Sum(int a)
 }
 
 System.Console.WriteLine(Sum(5));
+System.Console.WriteLine(Sum(10));
+System.Console.WriteLine(Sum(0));
+System.Console.WriteLine(Sum(-20));
